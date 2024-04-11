@@ -1,0 +1,33 @@
+2024-04-09 22:26:39,630 args = Namespace(add_layers=['0', '6', '12'], add_width=['0'], arch_learning_rate=0.0006, arch_weight_decay=0.001, batch_size=96, cifar100=False, cutout=False, cutout_length=16, drop_path_prob=0.3, dropout_rate=['0.1', '0.4', '0.7'], epochs=25, grad_clip=5, init_channels=16, lamda_L1=0.9, layers=5, learning_rate=0.025, learning_rate_min=0.0, momentum=0.9, note='note_of_this_run', report_freq=50, save='log_pathsearch-note_of_this_run-20240409-222639', seed=2, tmp_data_dir='/path/to/your/data', train_portion=0.5, used_L1=True, weight_decay=0.0003, workers=0)
+2024-04-09 22:26:40,610 param size = 1.276058MB
+2024-04-09 22:26:40,616 Epoch: 0 lr: 2.480326e-02
+2024-04-09 22:27:45,303 Train_acc 35.751999
+2024-04-09 22:27:45,303 Epoch time: 64s
+2024-04-09 22:27:45,313 Epoch: 1 lr: 2.431662e-02
+2024-04-09 22:28:46,872 Train_acc 51.775998
+2024-04-09 22:28:46,873 Epoch time: 61s
+2024-04-09 22:28:46,873 Epoch: 2 lr: 2.364669e-02
+2024-04-09 22:29:49,054 Train_acc 59.563997
+2024-04-09 22:29:49,055 Epoch time: 62s
+2024-04-09 22:29:49,055 Epoch: 3 lr: 2.280398e-02
+2024-04-09 22:31:01,862 Train_acc 63.715998
+2024-04-09 22:31:01,862 Epoch time: 72s
+2024-04-09 22:31:01,863 Epoch: 4 lr: 2.180176e-02
+2024-04-09 22:33:16,956 Train_acc 66.911997
+2024-04-09 22:33:16,957 Epoch time: 135s
+2024-04-09 22:33:16,957 Epoch: 5 lr: 2.065578e-02
+2024-04-09 22:34:21,547 Train_acc 70.231997
+2024-04-09 22:34:21,547 Epoch time: 64s
+2024-04-09 22:34:21,548 Epoch: 6 lr: 1.938408e-02
+2024-04-09 22:35:23,912 Train_acc 72.519997
+2024-04-09 22:35:23,913 Epoch time: 62s
+2024-04-09 22:35:23,913 Epoch: 7 lr: 1.800667e-02
+2024-04-09 22:36:26,222 Train_acc 75.139997
+2024-04-09 22:36:26,223 Epoch time: 62s
+2024-04-09 22:36:26,223 Epoch: 8 lr: 1.654521e-02
+2024-04-09 22:38:01,450 Train_acc 76.943997
+2024-04-09 22:38:01,450 Epoch time: 95s
+2024-04-09 22:38:01,450 Epoch: 9 lr: 1.502271e-02
+2024-04-09 22:39:02,991 Train_acc 78.451998
+2024-04-09 22:39:02,992 Epoch time: 61s
+2024-04-09 22:39:02,992 Epoch: 10 lr: 1.346310e-02
