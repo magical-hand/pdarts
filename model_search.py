@@ -132,23 +132,23 @@ class Network(nn.Module):
             if cell.reduction:
                 if self.alphas_reduce.size(1) == 1:
                     if self.args.used_L1:
-                        self._arch_weights=F.sigmoid(self.alphas_reduce)
+                        self._arch_weights=self.alphas_reduce
                     else:
                         self._arch_weights = F.softmax(self.alphas_reduce, dim=0)
                 else:
                     if self.args.used_L1:
-                        self._arch_weights = F.sigmoid(self.alphas_reduce)
+                        self._arch_weights = self.alphas_reduce
                     else:
                         self._arch_weights = F.softmax(self.alphas_reduce, dim=-1)
             else:
                 if self.alphas_normal.size(1) == 1:
                     if self.args.used_L1:
-                        self._arch_weights = F.sigmoid(self.alphas_normal)
+                        self._arch_weights = self.alphas_normal
                     else:
                         self._arch_weights = F.softmax(self.alphas_normal, dim=0)
                 else:
                     if self.args.used_L1:
-                        self._arch_weights = F.sigmoid(self.alphas_normal)
+                        self._arch_weights = self.alphas_normal
                     else:
                         self._arch_weights = F.softmax(self.alphas_normal, dim=-1)
 

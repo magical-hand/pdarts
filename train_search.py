@@ -44,7 +44,7 @@ parser.add_argument('--dropout_rate', action='append', default=[], help='dropout
 parser.add_argument('--add_width', action='append', default=['0'], help='add channels')
 parser.add_argument('--add_layers', action='append', default=['0'], help='add layers')
 parser.add_argument('--used_L1',action='store_true',default=False,help='is sued L1 regulartion to clip network')
-parser.add_argument('--lamda_L1', type=float, default=100, help='L1 Penalty coefficient')
+parser.add_argument('--lamda_L1', type=float, default=0.1, help='L1 Penalty coefficient')
 parser.add_argument('--cifar100', action='store_true', default=False, help='search with cifar100 dataset')
 
 args = parser.parse_args()

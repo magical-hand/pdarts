@@ -7,9 +7,6 @@ by Xin Chen, [Lingxi Xie](http://lingxixie.com/), [Jun Wu](https://see.tongji.ed
 
 ## Highlights of Progressive DARTS
 
-python train_search.py --tmp_data_dir /path/to/your/data --save log_path --add_layers 6 --add_layers 12 --dropout_rate 0.1 --dropout_rate 0.4 --dropout_rate 0.7 --note note_of_this_run
-
-
 **Searched on CIFAR10, we achieved currently one of, if not only, the best performance on ImageNet (24.4%/7.4%) under the mobile setting!**
 
 **Our approach is much more stable than DARTS, making it easily generalized to (i) deeper network architecture search, (ii) datasets with more classes (like CIFAR100), so it has potentials to be used to more complex vision tasks.**
