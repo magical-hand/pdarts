@@ -38,7 +38,7 @@ parser.add_argument('--arch', type=str, default='PDARTS', help='which architectu
 parser.add_argument('--grad_clip', type=float, default=5, help='gradient clipping')
 parser.add_argument('--tmp_data_dir', type=str, default='/tmp/cache/', help='temp data dir')
 parser.add_argument('--note', type=str, default='try', help='note for this run')
-parser.add_argument('--cifar100', action='store_true', default=False, help='if use cifar100')
+parser.add_argument('--cifar10', action='store_true', default=False, help='if use cifar100')
 
 args, unparsed = parser.parse_known_args()
 
